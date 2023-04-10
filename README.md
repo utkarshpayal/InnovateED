@@ -1,10 +1,11 @@
 # InnovateED
+![image](https://user-images.githubusercontent.com/104209135/230834254-85d1c31b-ea02-44a4-87e8-471d18546b1c.png)
 
 Rajasthan IT Day Hackathon Submission
 
 Team Name: BarnStormers
 
-Members: Manjeet Agarwal,Suryaansh Singh, Utkarsh Payal, Deepak Panwar, Praveen Saini
+Members: Utkarsh Payal, Manjeet Agarwal, Suryaansh Singh, Deepak Panwar, Praveen Saini
 InnovateEd
 
 This is a working prototype of InnovateEd, our submission for the IT Day Hackathon. You can install it yourself or view it live here: https://pingmetrix.com/
@@ -12,7 +13,7 @@ Prograssive Web App
 
 Our application is also available as a Mobile web app, just open https://pingmetrix.com/ on chrome click on the three dots on top menu and click on Install App.
 
-WhatsApp Image 2023-03-21 at 09 15 55
+![image](https://user-images.githubusercontent.com/104209135/230834363-d2cdd46d-361a-4e93-8077-c142a7769975.png)
 
 Problem Statement: Develop a solution to boost the interest of K-12 students in Innovation and STEM education in India using AI
 
@@ -60,26 +61,26 @@ Please follow the steps given below to install InnovateEd on your local system:
 
 Requirements:
 
-    Mysql Server
-    PHP 8.1
-    Apache2 / Nginx
+   1.Mysql Server
+   2.PHP 8.1
+   3.Apache2 / Nginx
 
 Basically LAMP Stack
 
 Steps:
 
-    Clone the repository on your local system and place files inside your server root
+    1.Clone the repository on your local system and place files inside your server root
 
-git clone https://github.com/supersuryaansh/InnovateEd.git
+git clone https://github.com/utkarshpayal/InnovateED.git
 
-    In the project files, edit the includes/sql.php file and fill it with your Mysql server details
+    2.In the project files, edit the includes/sql.php file and fill it with your Mysql server details
 
-    Now go to the following path and fill mysql details again. This step is required for our Login module to work.
+    3.Now go to the following path and fill mysql details again. This step is required for our Login module to work.
 
 <yourdomain.com>/account/login.php
 
 An installation script will guide you and help you to setup the sql.php file for our user registration system.
 
-    The name of our database is patents, import it into your mysql the DB is available in the cloned files itself.
+    4.The name of our database is patents, import it into your mysql the DB is available in the cloned files itself.
 
 The installation is complete, and it will run on your system now. If you do not follow the instructions clearly and setup mysql properly then you will encounter 500 Server Error.
