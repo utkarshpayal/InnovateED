@@ -1,0 +1,27 @@
+{
+    "lang": "en",
+    "name": "InnovateEd",
+    "short_name": "InnovateEd",
+    "theme_color": "#9d39a1",
+    "background_color": "#cfefea",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "index.php",
+    "icons": [{
+       "src": "logo.png",
+       "sizes": "500*500"
+       },
+       {
+        "src": "logo.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+       {
+        "src": "logo.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ]
+  }
